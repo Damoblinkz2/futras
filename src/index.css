@@ -1,0 +1,81 @@
+@media  screen and (min-width:1000px) {
+   header .head .menu .menu-list{
+    display: block !important;
+   } 
+
+   header .head .menu .menu-list a{
+    display: inline-block;
+    margin: 0 25px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    transition: all .5s;
+    color: hsl(213, 5%, 34%);
+   }
+
+   header .head .menu .menu-list a:hover{
+    color: hsl(38, 100%, 50%);
+   }
+
+  header .head .menu .menu-icon{
+    display: none !important;
+   }
+
+   .banner{
+     padding: 150px 70px 200px !important;
+     background-position: 30% !important;
+
+   }
+
+   .banner h1{
+    font-size: 5rem !important;
+    width: 50%;
+   }
+   
+
+   .about-us{
+    padding: 120px 0 !important;
+   }
+
+   .about-us .container .row .column1{
+    padding: 80px 4% !important;
+   }
+
+
+   .about-us .container .row .column1 .about-banner-div1 .image-holder{
+    transform: translate(-30%,-40%) !important;
+   }
+   .about-us .container .row .column1 .about-banner-div1 .image-holder img{
+    width: 180px !important;
+   }
+
+
+   .about-us .container .row .column2 .column2-holder img{
+    width: 200px !important;
+  }
+
+   .about-us .container .row .column2 .about-banner-div2 h2{
+    font-size: 3.6rem !important;
+    padding: 20px 0 30px;
+   }
+   .about-us .container .row .column2 .about-banner-div2 h1{
+    margin: 50px 0 10px !important;
+   }
+  
+   .download .container .leaf{
+    right: 2%;
+    top: -15%;
+    width: 10% !important;
+  }
+  .download .container .leaf2{
+    left: 2%;
+    bottom: -15%;
+    width: 10% !important;
+  }
+
+  footer .footer2 .container{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+  }
+}
