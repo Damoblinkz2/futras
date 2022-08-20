@@ -436,7 +436,7 @@ const Footer =() => {
       <div className='footer2'>
        <div className='container'>
         <div>
-          <p>&copy; {currentYear} Futras Made With <span className='heart'>&hearts;</span> by <a href='#' className='me'>Damoblinkz</a></p>
+          <p>&copy; {currentYear} Futras Made With <span className='heart'>&hearts;</span> by <a href='https://github.com/damoblinkz' className='me'>Damoblinkz</a></p>
         </div>
         <div>
           <p><a href='#'>Terms of Service</a> - <a href='#'>Privacy Policy</a> - <a href='#'>Sitemap</a> - <a href='#'>Security</a></p>
